@@ -1,0 +1,9 @@
+# Automated Jinja SSTI exploit tool
+Use simple straight strategy to get code execution on vulnerable system
+
+Provide file containing raw HTTP request with `<ssti>` mark in the vulnerable parameter
+
+```bash
+python3 ajssti.py -r req.txt
+```
+
